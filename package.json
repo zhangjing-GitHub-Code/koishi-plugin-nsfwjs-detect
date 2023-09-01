@@ -8,14 +8,21 @@
     "lib",
     "dist"
   ],
-  "license": "MIT",
-  "scripts": {},
+  "license": "AGPL-3.0-or-later",
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "nsfw",
+    "sex",
+    "nsfw-pics"
   ],
   "peerDependencies": {
+    "@tensorflow/tfjs-node": "^4.10.0",
     "koishi": "^4.14.2"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.10.0",
+    "nsfwjs": "^2.4.1"
   }
 }
